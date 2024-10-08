@@ -35,3 +35,9 @@ public class MoveSmallestElement {
 //Step 1 Loop through the approach
 //Step 2 
 
+if (i < list.size() - 2) { 
+    System.out.print(", ");
+} else if (i == list.size() - 2 && (list.size() % 2 == 0)) {
+    System.out.print(", ");
+}
+
