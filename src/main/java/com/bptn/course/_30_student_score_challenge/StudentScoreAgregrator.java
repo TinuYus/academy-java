@@ -1,13 +1,12 @@
 package com.bptn.course._30_student_score_challenge;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class StudentScoreAgregrator {
 	
 	public static double calculateAverage(Student student, Map<String,Double>scores ) {
-		double sum;
+		double sum = 0;
 		for(Double score:scores.values()) {
 			sum+=score;
 		}
